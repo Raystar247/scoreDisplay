@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: white;
+}
+.course {
+    width: 15%;
+    display: inline-block;
+    font-size: 21px;
+    text-align: center; 
+    height: 120px;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+
+.q_display {
+    float: right;
+    width: 75%;
+    margin-right: 2.5%;
+    margin-top: 10px;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100px;
+    width: 100%;
+    border-left: solid 2px cyan;
+    margin-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: large;   
+}
+
+.answer {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    font-family: HiraginoSans-W5;
+    font-size: larger;
+    border-left: solid 2px red;
+    padding-left: 2%;
+}   
+
+table {
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    margin-right: 1%;
+    margin-top: 25px;
+}
+
+.rank {
+    font-size: large;
+}
+
+.school {
+    padding-bottom: 10px;
+}
+
+.person {
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    padding-right: 4px;
+}
+
+.outer_person{
+    height: 425px;
+}
+
+.point {
+    font-size: 48px;
+    font-style: italic;
+}
+
+.counterWrong {
+    font-family: YuKyo-Medium;
+    padding-top: 15px;
+}

@@ -1,0 +1,151 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.qFlame {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2.5%;
+    width: 75%;  
+}
+
+.nextQuestion {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100px;
+    width: 100%;
+    padding-left: 2%;
+    margin-right: 2%;
+    font-size: large;
+    font-family: HiraginoSans-W3;
+    border: solid 1.5px white;
+}
+
+.nextAnswer {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    font-family: HiraginoSans-W5;
+    font-size: larger;
+    padding-left: 2%;
+    border: solid 1.5px white;
+}
+
+.buttonFlame {
+    margin-top: 25px;
+    margin-right: 4%;
+    margin-bottom: 10px;
+    float: right;
+}
+.sendButton {
+    display: inline-block;
+    text-decoration: none;
+    background: #87befd;
+    color: #FFF;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 5px #87befd;
+    border: dashed 1px #FFF;
+    transition: .4s;
+    font-size: large;
+}
+.sendButton:hover {
+    background: #668ad8;
+    box-shadow: 0px 0px 0px 5px #668ad8;    
+}
+.operation_player{
+    display: inline-block;
+}
+
+table {
+    text-align: center;
+    table-layout: fixed;
+    float: left;
+    width: 75%;
+    margin-left: 2.5%;
+    margin-top: 25px;
+}
+
+.person {
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    padding-right: 4px;
+}
+
+.outer_person{
+    height: 260px;
+}
+
+.correct {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    width: 45px;
+    height: 45px;
+    line-height: 39px;
+    border-radius: 50%;
+    border: solid 2px gold;
+    text-align: center;
+    overflow: hidden;
+    font-weight: 1000;
+    transition: .4s;
+    font-size: large;
+    font-family: YuKyo-Medium;
+    margin-bottom: 10px;
+}
+.correct:hover {
+    background-color: gold;
+    border: solid 2px red;
+    color: red;
+}
+
+.wrong {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    width: 45px;
+    height: 45px;
+    line-height: 39px;
+    border-radius: 50%;
+    border: solid 2px skyblue;
+    text-align: center;
+    overflow: hidden;
+    font-weight: 1000;
+    transition: .4s;
+    font-size: large;
+    font-family: YuKyo-Medium;   
+}
+.wrong:hover {
+    background-color: skyblue;
+    border: solid 2px blue;
+    color: blue;
+}
+
+.setting {
+    margin-top: 25px;
+    margin-right: 12px;
+    float: right;
+    border: solid;
+    width: 17.5%;
+    border: solid 1px cyan;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.Qnumber {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 25px;
+    font-style: italic;
+}
